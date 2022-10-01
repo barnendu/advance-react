@@ -1,6 +1,6 @@
 
 import React from 'react'
-import '@de.x/scss/lib/Button.css'
+import '@ds.e/scss/lib/Button.css'
 
 
 export interface ButtonProps {
