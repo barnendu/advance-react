@@ -1,12 +1,14 @@
 import React from 'react'
 import Button from './Button'
+import { withA11Y } from '@storybook/addon-a11y'
 
 export default {
   title: 'Form/Button',
   component: Button,
   args: {
     children: 'Button'
-  }
+  },
+  decorators: [withA11Y]
 }
 
 export const Primary = () => <Button variant='primary'>Primary</Button>
